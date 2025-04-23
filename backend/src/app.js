@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    console.log(req.body);
+    
     res.json({
         message: 'data received',
         data: req.body,
