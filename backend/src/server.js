@@ -20,7 +20,7 @@ connectDB() .then(() => {
             console.error(`Error while starting the server: ${err.message}`);
             process.exit(1); // Exit the process if the server fails to start
         }
-        console.log(`Server is running on port ${port}`);
+        
     });
 })
 .catch((error) => {

@@ -33,7 +33,7 @@ const EditJob = () => {
   
 
   const { job } = useLoaderData();
-  //console.log(job);
+ 
   const navigation = useNavigation();
   const isSubmitting = navigation.state === "submitting";
   return (

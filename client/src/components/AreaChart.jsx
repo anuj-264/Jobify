@@ -9,7 +9,7 @@ import {
   } from 'recharts';
   
   const AreaChartComponent = ({ data }) => {
-    console.log("📊 Area Chart Data:", data);
+    
   
     return (
       <ResponsiveContainer width='100%' height={300}>

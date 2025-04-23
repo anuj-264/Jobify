@@ -33,7 +33,7 @@ const DashBoardLayout = () => {
     setShowSidebar(!showSidebar);
   };
   const logoutUser = async () => {
-    console.log("logout user");
+    
     navigate("/");
     await customFetch.get("/auth/logout");
     toast.success("User Logged Out!");

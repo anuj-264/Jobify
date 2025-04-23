@@ -6,7 +6,7 @@ import Wrapper from '../assets/wrappers/ChartsContainer';
 
 const ChartsContainer = ({ data }) => {
   const [barChart, setBarChart] = useState(true);
-  console.log("Chart Data:", data);
+  
   return (
     <Wrapper>
       <h4>Monthly Applications</h4>
